@@ -1,0 +1,10 @@
+{
+  "name": "jazor/webfarm",
+  "license": "MIT",
+  "homepage": "https://jazor.net",
+  "autoload": {
+    "psr-4": {
+      "Jazor\\WebFarm\\": "./src/",
+    }
+  }
+}
