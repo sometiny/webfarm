@@ -1,10 +1,24 @@
 {
-  "name": "jazor/webfarm",
-  "license": "MIT",
-  "homepage": "https://jazor.net",
-  "autoload": {
-    "psr-4": {
-      "Jazor\\WebFarm\\": "./src/",
-    }
-  }
+    "name": "jazor/webfarm",
+    "type": "library",
+    "description": "webfarm for php",
+    "keywords": ["webfarm","jazor"],
+    "homepage": "https://github.com/cook-code-jazor/webfarm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anlige",
+            "email": "zhanghuiguoanlige@126.com",
+            "homepage": "https://github.com/cook-code-jazor/webfarm"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jazor\\WebFarm\\": "./src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
