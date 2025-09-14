@@ -19,6 +19,5 @@
         "psr-4": {
             "Jazor\\WebFarm\\": "./src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
